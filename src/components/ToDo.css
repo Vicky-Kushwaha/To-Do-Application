@@ -1,0 +1,174 @@
+.toDo_container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.toDo_box{
+    width: 25rem;
+    height: 25rem;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.input_box{
+    margin: 0.6rem;
+    padding: 0.6rem;
+}
+
+.input_box form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1rem;
+}
+
+.input_box form input{
+    border: none;
+    width: 80%;
+    height: 2.5rem;
+    padding: 0.4rem;
+    box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    outline: none;
+    font-size: 1.2rem;
+    color: rgb(58, 56, 56);
+
+}
+
+.input_box form button{
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.1rem;
+    border-radius: 50%;
+    color: white;
+    font-size: 2rem;
+    background-color: orange;
+    border: none;
+    outline: none;
+}
+
+.input_box form button:hover{
+    background-color: rgb(11, 231, 11); 
+    cursor: pointer;
+}
+
+
+.heading{
+    margin: 0.2rem auto;
+    width: 7rem;
+    border-bottom: 3px solid rgba(139, 133, 133, 0.733);
+    color: rgba(139, 133, 133, 0.733);
+}
+
+.toDo_list{
+    overflow: auto;
+    height: 17rem;
+}
+
+.toDo_list::-webkit-scrollbar{
+    display: none;
+}
+
+
+.item {
+    display: flex;
+    align-items: center;
+    margin: 0.4rem;
+    padding: 0.4rem;
+    border-radius: 5px;
+    background-color: rgb(233, 229, 229);
+  }
+  
+  
+  .status{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 1.7rem;
+      height: 1.7rem;
+      padding: 0.2rem;
+      border-radius: 50%;
+      background-color: red;
+      color: white;
+  }
+  
+  
+  .item p{
+      margin: 0 0.8rem;
+      width: 70%;
+  }
+  
+  .item .todo_actions{
+    display: flex;
+    align-items: center;
+  }
+  
+  .todo_actions span{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 0.6rem;
+      width: 1.7rem;
+      height: 1.7rem;
+      padding: 0.2rem;
+      border-radius: 50%;
+      box-shadow: 0  0 2px rgba(0, 0, 0, 0.5);  
+  }
+  
+  .todo_actions span:hover{
+      cursor: pointer;
+      background-color: white;
+  }.item {
+  display: flex;
+  align-items: center;
+  margin: 0.4rem;
+  padding: 0.4rem;
+  border-radius: 5px;
+  background-color: rgb(233, 229, 229);
+}
+
+
+.status{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.7rem;
+    height: 1.7rem;
+    padding: 0.2rem;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+
+.item p{
+    margin: 0 0.8rem;
+    width: 70%;
+}
+
+.item .todo_actions{
+  display: flex;
+  align-items: center;
+}
+
+.todo_actions span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0.6rem;
+    width: 1.7rem;
+    height: 1.7rem;
+    padding: 0.2rem;
+    border-radius: 50%;
+    box-shadow: 0  0 2px rgba(0, 0, 0, 0.5);  
+}
+
+.todo_actions span:hover{
+    cursor: pointer;
+    background-color: white;
+}
