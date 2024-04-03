@@ -88,19 +88,31 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 1.7rem;
-      height: 1.7rem;
+      width: 1.6rem;
+      height: 1.6rem;
       padding: 0.2rem;
       border-radius: 50%;
-      background-color: red;
+      background-color: tomato;
       color: white;
+      cursor: pointer;
+  }
+
+  .completeStatus{
+    background-color: rgb(20, 243, 20);
   }
   
   
   .item p{
       margin: 0 0.8rem;
       width: 70%;
+      font-size: 1.2rem;
+      font-style: italic;
   }
+
+  .complete{
+    text-decoration: line-through;
+  }
+
   
   .item .todo_actions{
     display: flex;
@@ -116,59 +128,19 @@
       height: 1.7rem;
       padding: 0.2rem;
       border-radius: 50%;
-      box-shadow: 0  0 2px rgba(0, 0, 0, 0.5);  
+      color: rgba(139, 133, 133, 0.733);
+  }
+
+  .delete{
+    color: red;
+  }
+
+  .edit{
+    color: green;
   }
   
   .todo_actions span:hover{
       cursor: pointer;
       background-color: white;
-  }.item {
-  display: flex;
-  align-items: center;
-  margin: 0.4rem;
-  padding: 0.4rem;
-  border-radius: 5px;
-  background-color: rgb(233, 229, 229);
-}
-
-
-.status{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 1.7rem;
-    height: 1.7rem;
-    padding: 0.2rem;
-    border-radius: 50%;
-    background-color: red;
-    color: white;
-    cursor: pointer;
-}
-
-
-.item p{
-    margin: 0 0.8rem;
-    width: 70%;
-}
-
-.item .todo_actions{
-  display: flex;
-  align-items: center;
-}
-
-.todo_actions span{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 0.6rem;
-    width: 1.7rem;
-    height: 1.7rem;
-    padding: 0.2rem;
-    border-radius: 50%;
-    box-shadow: 0  0 2px rgba(0, 0, 0, 0.5);  
-}
-
-.todo_actions span:hover{
-    cursor: pointer;
-    background-color: white;
-}
+  }
+  
